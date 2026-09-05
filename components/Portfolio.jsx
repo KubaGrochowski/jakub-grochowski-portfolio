@@ -65,7 +65,6 @@ export default function Portfolio() {
                 <div className="project-card__body">
                   <h3>{project.title}</h3>
                   <p>{project.desc}</p>
-                  {project.result && <p className="project-card__result">{project.result}</p>}
                   <div className="tag-row">
                     {project.tags.map((tag, tagIndex) => (
                       <span className="chip chip--sm" key={tagIndex}>{tag}</span>
