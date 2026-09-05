@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jakub Grochowski — Portfolio</title>
+<meta name="description" content="Jakub Grochowski — portfolio zawodowe. Sztuczna inteligencja, finansowość, informatyka.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230b0f0d%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 font-family=%22sans-serif%22 font-weight=%22700%22 fill=%22%2334d399%22 text-anchor=%22middle%22>JG</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<!-- ===== NAV ===== -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="#top" class="brand">
+      <span class="brand__mark">JG</span>
+      <span class="brand__name">Jakub<span class="accent">.</span>Grochowski</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">O mnie</a>
+      <a href="#services" class="nav-link">Specjalizacje</a>
+      <a href="#skills" class="nav-link">Umiejętności</a>
+      <a href="#portfolio" class="nav-link">Realizacje</a>
+      <a href="#process" class="nav-link">Proces</a>
+      <a href="#testimonials" class="nav-link">Opinie</a>
+      <a href="#pricing" class="nav-link">Cennik</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a href="#contact" class="btn btn--primary btn--sm">Skontaktuj się</a>
+      <button class="burger" id="burger" aria-label="Otwórz menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__glow"></div>
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <span class="tag-pill">
+          <span class="dot dot--pulse"></span> Dostępny na nowe projekty
+        </span>
+        <h1 class="hero__title">
+          Cześć, jestem <span class="accent-text">Jakub Grochowski</span>
+        </h1>
+        <p class="hero__role">Lorem Ipsum Dolor &mdash; Sit Amet Consectetur</p>
+        <p class="hero__desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod,
+          nisl eget aliquam ultricies, nunc nisl aliquet nunc, eget aliquam nisl nunc
+          eget nisl. Sed euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc.
+        </p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary">Umów rozmowę</a>
+          <a href="#portfolio" class="btn btn--ghost">Zobacz realizacje</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">XX<span class="accent-text">+</span></span>
+            <span class="stat__label">Lorem ipsum</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">XX<span class="accent-text">+</span></span>
+            <span class="stat__label">Dolor sit amet</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">100<span class="accent-text">%</span></span>
+            <span class="stat__label">Consectetur</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="avatar-card">
+          <div class="avatar-card__ring"></div>
+          <div class="avatar-card__inner">JG</div>
+          <div class="avatar-card__badge">
+            <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            Toruń, PL
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Przewiń w dół"><span></span></a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">01 &mdash; Poznajmy się</span>
+        <h2>O mnie</h2>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+          <div class="interest-tags">
+            <span class="chip">Sztuczna inteligencja</span>
+            <span class="chip">Finansowość</span>
+            <span class="chip">Informatyka</span>
+          </div>
+        </div>
+
+        <div class="about__facts reveal">
+          <ul class="fact-list">
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+              <div><span class="fact-label">Lokalizacja</span><span class="fact-value">Toruń, 87-100</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <div><span class="fact-label">Email</span><span class="fact-value">grochowski.business@gmail.com</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <div><span class="fact-label">Telefon</span><span class="fact-value">692 625 334</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+              <div><span class="fact-label">Hobby</span><span class="fact-value">Piłka nożna, szachy, gra na pianinie</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57l1.43 1.43 8.57 8.57L13.43 22l1.43-1.43L18.43 24 20 22.43z"/></svg>
+              <div><span class="fact-label">Aktywność</span><span class="fact-value">Regularne treningi na siłowni</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SPECIALIZATIONS / SERVICES ===== -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">02 &mdash; Czym się zajmuję</span>
+        <h2>Specjalizacje</h2>
+        <p class="section-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="card service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5c0 1.86.99 3.47 2.47 4.36L9 14v2h6v-2l-.47-2.64A5.007 5.007 0 0 0 17 7a5 5 0 0 0-5-5zM9 18h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1z"/></svg>
+          </div>
+          <h3>Sztuczna Inteligencja</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio
+            praesent libero sed cursus ante dapibus diam sagittis ligula.
+          </p>
+          <ul class="check-list">
+            <li>Lorem ipsum dolor sit</li>
+            <li>Consectetur adipiscing elit</li>
+            <li>Sed do eiusmod tempor</li>
+          </ul>
+        </div>
+
+        <div class="card service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M3 3h2v18H3V3zm4 10h2v8H7v-8zm4-6h2v14h-2V7zm4 3h2v11h-2V10zm4-7h2v18h-2V3z"/></svg>
+          </div>
+          <h3>Finansowość</h3>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur excepteur sint occaecat.
+          </p>
+          <ul class="check-list">
+            <li>Ut enim ad minim veniam</li>
+            <li>Quis nostrud exercitation</li>
+            <li>Ullamco laboris nisi</li>
+          </ul>
+        </div>
+
+        <div class="card service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-6l2 3v1H8v-1l2-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v10h16V6H4z"/></svg>
+          </div>
+          <h3>Informatyka</h3>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium totam rem aperiam eaque ipsa.
+          </p>
+          <ul class="check-list">
+            <li>Nemo enim ipsam voluptatem</li>
+            <li>Quia voluptas sit aspernatur</li>
+            <li>Aut odit aut fugit</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">03 &mdash; Warsztat</span>
+        <h2>Umiejętności</h2>
+        <p class="section-sub">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skill-group reveal">
+          <h4>Lorem Ipsum</h4>
+          <div class="skill-bar"><span class="skill-bar__label">Dolor Sit Amet</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:92%"></div></div></div>
+          <div class="skill-bar"><span class="skill-bar__label">Consectetur</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:85%"></div></div></div>
+          <div class="skill-bar"><span class="skill-bar__label">Adipiscing Elit</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:78%"></div></div></div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>Sed Do Eiusmod</h4>
+          <div class="skill-bar"><span class="skill-bar__label">Tempor Incididunt</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:88%"></div></div></div>
+          <div class="skill-bar"><span class="skill-bar__label">Ut Labore</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:80%"></div></div></div>
+          <div class="skill-bar"><span class="skill-bar__label">Dolore Magna</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:74%"></div></div></div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>Ut Enim Ad</h4>
+          <div class="skill-bar"><span class="skill-bar__label">Minim Veniam</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:90%"></div></div></div>
+          <div class="skill-bar"><span class="skill-bar__label">Quis Nostrud</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:82%"></div></div></div>
+          <div class="skill-bar"><span class="skill-bar__label">Exercitation</span><div class="skill-bar__track"><div class="skill-bar__fill" style="width:70%"></div></div></div>
+        </div>
+      </div>
+
+      <div class="tool-tags reveal">
+        <span class="chip chip--outline">Lorem</span>
+        <span class="chip chip--outline">Ipsum</span>
+        <span class="chip chip--outline">Dolor</span>
+        <span class="chip chip--outline">Sit</span>
+        <span class="chip chip--outline">Amet</span>
+        <span class="chip chip--outline">Consectetur</span>
+        <span class="chip chip--outline">Adipiscing</span>
+        <span class="chip chip--outline">Elit</span>
+        <span class="chip chip--outline">Sed</span>
+        <span class="chip chip--outline">Eiusmod</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="section section--alt" id="portfolio">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">04 &mdash; Wybrane prace</span>
+        <h2>Realizacje</h2>
+        <p class="section-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card project-card reveal">
+          <div class="project-card__thumb">Projekt 01</div>
+          <div class="project-card__body">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.</p>
+            <div class="tag-row"><span class="chip chip--sm">AI</span><span class="chip chip--sm">Lorem</span></div>
+          </div>
+        </article>
+        <article class="card project-card reveal">
+          <div class="project-card__thumb">Projekt 02</div>
+          <div class="project-card__body">
+            <h3>Consectetur Adipiscing</h3>
+            <p>Ut labore et dolore magna aliqua ut enim ad minim veniam quis.</p>
+            <div class="tag-row"><span class="chip chip--sm">Finanse</span><span class="chip chip--sm">Ipsum</span></div>
+          </div>
+        </article>
+        <article class="card project-card reveal">
+          <div class="project-card__thumb">Projekt 03</div>
+          <div class="project-card__body">
+            <h3>Sed Do Eiusmod</h3>
+            <p>Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            <div class="tag-row"><span class="chip chip--sm">IT</span><span class="chip chip--sm">Dolor</span></div>
+          </div>
+        </article>
+        <article class="card project-card reveal">
+          <div class="project-card__thumb">Projekt 04</div>
+          <div class="project-card__body">
+            <h3>Tempor Incididunt</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+            <div class="tag-row"><span class="chip chip--sm">AI</span><span class="chip chip--sm">Sit</span></div>
+          </div>
+        </article>
+        <article class="card project-card reveal">
+          <div class="project-card__thumb">Projekt 05</div>
+          <div class="project-card__body">
+            <h3>Ut Labore Magna</h3>
+            <p>Cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.</p>
+            <div class="tag-row"><span class="chip chip--sm">Finanse</span><span class="chip chip--sm">Amet</span></div>
+          </div>
+        </article>
+        <article class="card project-card reveal">
+          <div class="project-card__thumb">Projekt 06</div>
+          <div class="project-card__body">
+            <h3>Quis Nostrud</h3>
+            <p>Cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
+            <div class="tag-row"><span class="chip chip--sm">IT</span><span class="chip chip--sm">Elit</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">05 &mdash; Współpraca</span>
+        <h2>Jak pracuję</h2>
+        <p class="section-sub">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="process__grid">
+        <div class="process-step reveal">
+          <span class="process-step__num">01</span>
+          <h3>Lorem Ipsum</h3>
+          <p>Dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.</p>
+        </div>
+        <div class="process-step reveal">
+          <span class="process-step__num">02</span>
+          <h3>Dolor Sit Amet</h3>
+          <p>Incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
+        </div>
+        <div class="process-step reveal">
+          <span class="process-step__num">03</span>
+          <h3>Consectetur</h3>
+          <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+        </div>
+        <div class="process-step reveal">
+          <span class="process-step__num">04</span>
+          <h3>Adipiscing Elit</h3>
+          <p>Commodo consequat duis aute irure dolor in reprehenderit voluptate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section section--alt" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">06 &mdash; Opinie</span>
+        <h2>Co mówią klienci</h2>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="card testimonial-card reveal">
+          <svg class="quote-icon" viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M9.5 9C7 9 5 11 5 13.5S7 18 9.5 18c.36 0 .7-.05 1.03-.13C9.9 19.6 8.2 21 6 21v2c4 0 7-3.13 7-7v-2.5C13 11 11.5 9 9.5 9zm9 0C16 9 14 11 14 13.5s2 4.5 4.5 4.5c.36 0 .7-.05 1.03-.13-.63 1.73-2.33 3.13-4.53 3.13v2c4 0 7-3.13 7-7v-2.5c0-2.5-1.5-4.5-3.5-4.5z"/></svg>
+          <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="avatar-sm">A</div>
+            <div><span class="fact-value">Anna Kowalska</span><span class="fact-label">Lorem Ipsum Sp. z o.o.</span></div>
+          </div>
+        </div>
+        <div class="card testimonial-card reveal">
+          <svg class="quote-icon" viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M9.5 9C7 9 5 11 5 13.5S7 18 9.5 18c.36 0 .7-.05 1.03-.13C9.9 19.6 8.2 21 6 21v2c4 0 7-3.13 7-7v-2.5C13 11 11.5 9 9.5 9zm9 0C16 9 14 11 14 13.5s2 4.5 4.5 4.5c.36 0 .7-.05 1.03-.13-.63 1.73-2.33 3.13-4.53 3.13v2c4 0 7-3.13 7-7v-2.5c0-2.5-1.5-4.5-3.5-4.5z"/></svg>
+          <p>&ldquo;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="avatar-sm">P</div>
+            <div><span class="fact-value">Piotr Nowak</span><span class="fact-label">Dolor Sit Group</span></div>
+          </div>
+        </div>
+        <div class="card testimonial-card reveal">
+          <svg class="quote-icon" viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M9.5 9C7 9 5 11 5 13.5S7 18 9.5 18c.36 0 .7-.05 1.03-.13C9.9 19.6 8.2 21 6 21v2c4 0 7-3.13 7-7v-2.5C13 11 11.5 9 9.5 9zm9 0C16 9 14 11 14 13.5s2 4.5 4.5 4.5c.36 0 .7-.05 1.03-.13-.63 1.73-2.33 3.13-4.53 3.13v2c4 0 7-3.13 7-7v-2.5c0-2.5-1.5-4.5-3.5-4.5z"/></svg>
+          <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="avatar-sm">M</div>
+            <div><span class="fact-value">Magda Wiśniewska</span><span class="fact-label">Amet Consectetur S.A.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">07 &mdash; Oferta</span>
+        <h2>Cennik</h2>
+        <p class="section-sub">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam.</p>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="card pricing-card reveal">
+          <h3>Lorem</h3>
+          <p class="pricing-card__desc">Ipsum dolor sit amet consectetur.</p>
+          <div class="pricing-card__price">od <span class="accent-text">XXX zł</span></div>
+          <ul class="check-list">
+            <li>Lorem ipsum dolor sit</li>
+            <li>Consectetur adipiscing</li>
+            <li>Sed do eiusmod</li>
+            <li>Tempor incididunt</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost btn--block">Wybierz</a>
+        </div>
+
+        <div class="card pricing-card pricing-card--featured reveal">
+          <span class="pricing-card__badge">Najczęściej wybierane</span>
+          <h3>Ipsum</h3>
+          <p class="pricing-card__desc">Dolor sit amet consectetur adipiscing.</p>
+          <div class="pricing-card__price">od <span class="accent-text">XXX zł</span></div>
+          <ul class="check-list">
+            <li>Wszystko z pakietu Lorem</li>
+            <li>Ut labore et dolore</li>
+            <li>Magna aliqua ut enim</li>
+            <li>Ad minim veniam</li>
+            <li>Quis nostrud exercitation</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary btn--block">Wybierz</a>
+        </div>
+
+        <div class="card pricing-card reveal">
+          <h3>Dolor</h3>
+          <p class="pricing-card__desc">Sit amet consectetur adipiscing elit.</p>
+          <div class="pricing-card__price">Wycena <span class="accent-text">indywidualna</span></div>
+          <ul class="check-list">
+            <li>Wszystko z pakietu Ipsum</li>
+            <li>Ullamco laboris nisi</li>
+            <li>Ut aliquip ex ea</li>
+            <li>Dedykowane wsparcie</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost btn--block">Skontaktuj się</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section section--alt" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">08 &mdash; Pytania</span>
+        <h2>Najczęstsze pytania</h2>
+      </div>
+
+      <div class="accordion reveal" id="accordion">
+        <div class="accordion-item">
+          <button class="accordion-item__head">
+            <span>Lorem ipsum dolor sit amet consectetur?</span>
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="accordion-item__body"><p>Adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-item__head">
+            <span>Ut enim ad minim veniam quis nostrud?</span>
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="accordion-item__body"><p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-item__head">
+            <span>Duis aute irure dolor in reprehenderit?</span>
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="accordion-item__body"><p>In voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-item__head">
+            <span>Excepteur sint occaecat cupidatat?</span>
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div class="accordion-item__body"><p>Non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">09 &mdash; Kontakt</span>
+        <h2>Porozmawiajmy o Twoim projekcie</h2>
+        <p class="section-sub">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <div class="contact-info-card">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <div><span class="fact-label">Email</span><a href="mailto:grochowski.business@gmail.com" class="fact-value fact-value--link">grochowski.business@gmail.com</a></div>
+          </div>
+          <div class="contact-info-card">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <div><span class="fact-label">Telefon</span><a href="tel:+48692625334" class="fact-value fact-value--link">692 625 334</a></div>
+          </div>
+          <div class="contact-info-card">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+            <div><span class="fact-label">Lokalizacja</span><span class="fact-value">Toruń, 87-100</span></div>
+          </div>
+
+          <div class="social-row">
+            <a href="#" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+            <a href="#" class="social-icon" aria-label="GitHub"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.19c0 4.5 2.87 8.31 6.84 9.66.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.61-3.37-1.21-3.37-1.21-.46-1.18-1.12-1.5-1.12-1.5-.91-.63.07-.62.07-.62 1.01.07 1.54 1.05 1.54 1.05.9 1.56 2.36 1.11 2.94.85.09-.67.35-1.11.64-1.37-2.22-.25-4.56-1.13-4.56-5.03 0-1.11.39-2.02 1.03-2.73-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.05a9.36 9.36 0 0 1 5 0c1.9-1.32 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.71 1.03 1.62 1.03 2.73 0 3.91-2.34 4.77-4.57 5.02.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.19C22 6.58 17.52 2 12 2z"/></svg></a>
+            <a href="#" class="social-icon" aria-label="X / Twitter"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M18.24 3H21l-6.55 7.49L22.5 21h-6.86l-4.32-5.64L6.4 21H3.6l7-7.99L2 3h7.03l3.9 5.15L18.24 3zm-1.2 16h1.5L7.03 5H5.42l11.62 14z"/></svg></a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Imię i nazwisko</label>
+              <input type="text" id="name" name="name" placeholder="Jan Kowalski" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Adres email</label>
+              <input type="email" id="email" name="email" placeholder="jan@firma.pl" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="subject">Temat</label>
+            <input type="text" id="subject" name="subject" placeholder="Lorem ipsum dolor sit amet">
+          </div>
+          <div class="form-field">
+            <label for="message">Wiadomość</label>
+            <textarea id="message" name="message" rows="5" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Wyślij wiadomość</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#top" class="brand">
+      <span class="brand__mark">JG</span>
+      <span class="brand__name">Jakub<span class="accent">.</span>Grochowski</span>
+    </a>
+    <nav class="footer__links">
+      <a href="#about">O mnie</a>
+      <a href="#services">Specjalizacje</a>
+      <a href="#portfolio">Realizacje</a>
+      <a href="#pricing">Cennik</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <p class="footer__copy">&copy; <span id="year"></span> Jakub Grochowski. Wszelkie prawa zastrzeżone.</p>
+  </div>
+</footer>
+
+<a href="#top" class="back-to-top" id="backToTop" aria-label="Wróć na górę">
+  <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 4l-8 8 1.41 1.41L11 7.83V20h2V7.83l5.59 5.58L20 12z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
